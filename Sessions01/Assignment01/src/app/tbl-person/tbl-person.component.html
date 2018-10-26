@@ -1,0 +1,19 @@
+<table class="table table-striped table-hover">
+    <thead>
+        <th></th>
+        <th>Name</th>
+        <th>Family</th>
+        <th>Age</th>
+        <th>FatherName</th>
+    </thead>
+    <tbody>
+            <tr *ngFor="let person of arrPersons">
+                    <td><button (click)="selectPerson(person)" class="button fa fa-search" value="Search"></button> </td>
+                    <td>{{person.name}}</td>
+                    <td>{{person.family}}</td>
+                    <td>{{person.age}}</td>
+                    <td>{{person.fatherName}}</td>
+                </tr>
+    </tbody>
+   
+</table>

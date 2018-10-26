@@ -1,0 +1,12 @@
+.Content {
+    margin-left:30px;
+    max-width:200px;
+    clear:both;
+   
+}
+.Content div{
+    clear:both;
+    margin-left:20px;
+    font-size:14px;
+    padding:5px;
+}
