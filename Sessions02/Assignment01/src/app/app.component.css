@@ -1,0 +1,22 @@
+.main-menu{
+  background-color:blue;
+  paddding:0px;
+  margin:0px;
+}
+
+.main-menu li{
+  display: inline;
+}
+.main-menu li:hover{
+  background-color:navy;
+}
+.main-menu li a{
+  padding : 5px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+}
+
+.active-link{
+  background-color:navy;
+}
